@@ -12,11 +12,11 @@ cargo build --release
 To use this tool, run it from the command line with the following syntax:
 
 ```bash
-./dll_injector <pid> <DLL Full Path>
+./dll_injection_apc.exe <pid> <DLL Full Path>
 ```
 Example
 ```bash
-./dll_injector 1234 C:\Users\Public\mal.dll
+./dll_injection_apc.exe 1234 C:\Users\Public\mal.dll
 ```
 
 - `<pid>`: The process ID of the target process.
